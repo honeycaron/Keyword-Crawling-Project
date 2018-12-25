@@ -13,7 +13,7 @@ import telegram
 import time
 
 # telegram bot variable
-bot = telegram.Bot(token='472817169:AAFLBKfg4GtmKYOpgoeLphM_CCXsi0_fTTo')
+bot = telegram.Bot(token=""Insert your token here"")
 
 chat_id = bot.getUpdates()[-1].message.chat.id
 
